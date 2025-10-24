@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Gallery = () => {
   const memories = [
-    { id: 1, src: '/src/assets/WhatsApp Image 2025-10-24 at 07.47.20_276c749c.jpg', caption: 'Kencan pertama kita 💞 (di roblox dulu y.. , tunggu episode real life nya 😆)' },
-    { id: 2, src: '/src/assets/WhatsApp Image 2025-10-24 at 07.46.14_d8903db5.jpg', caption: 'Kalau kamu buku, aku rela jadi pembatasnya… biar selalu di tengah-tengah kisahmu.” ❤️😜' },
-    { id: 3, src: '/src/assets/WhatsApp Image 2025-10-24 at 07.30.20_42d4c78e.jpg', caption: 'Aku tak berani meminta kamu secara langsung, jadi aku titip lewat doa, karena hanya Dia yang tahu seberapa tulus rasaku.” 💞' },
-    { id: 4, src: '/src/assets/WhatsApp Image 2025-10-24 at 07.32.54_5e5cd542.jpg', caption: 'membayangkan di pelaminan kamu salim kepadaku ☺️' },
-    { id: 5, src: '/src/assets/WhatsApp Image 2025-10-24 at 07.30.19_5f674e8b.jpg', caption: 'walaupun hanyalah foto serasa sudah serumah' },
-    { id: 6, src: '/src/assets/WhatsApp Image 2025-10-21 at 17.34.04_7680cd7b.jpg', caption: 'pelukan hangat  (buat aku ketiduran 💤)' },
+    { id: 1, src: '/assets/images/image1.jpg', caption: 'Kencan pertama kita 💞 (di roblox dulu y.. , tunggu episode real life nya 😆)' },
+    { id: 2, src: '/assets/images/image2.jpg', caption: 'Kalau kamu buku, aku rela jadi pembatasnya… biar selalu di tengah-tengah kisahmu.” ❤️😜' },
+    { id: 3, src: '/assets/images/image3.jpg', caption: 'Aku tak berani meminta kamu secara langsung, jadi aku titip lewat doa, karena hanya Dia yang tahu seberapa tulus rasaku.” 💞' },
+    { id: 4, src: '/assets/images/image4.jpg', caption: 'membayangkan di pelaminan kamu salim kepadaku ☺️' },
+    { id: 5, src: '/assets/images/image5.jpg', caption: 'walaupun hanyalah foto serasa sudah serumah' },
+    { id: 6, src: '/assets/images/image6.jpg', caption: 'pelukan hangat  (buat aku ketiduran 💤)' },
   ];
 
   return (

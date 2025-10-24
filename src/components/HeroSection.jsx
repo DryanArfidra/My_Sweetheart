@@ -9,7 +9,7 @@ const HeroSection = ({ onSurpriseClick }) => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat brightness-90 saturate-125 blur-[1px] scale-105 transition-all duration-700"
-        style={{ backgroundImage: "url('/src/assets/WhatsApp Image 2025-10-21 at 17.34.04_7680cd7b.jpg')" }}
+        style={{ backgroundImage: "url('/assets/images/image6.jpg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-rose-600/60 via-pink-400/30 to-transparent mix-blend-multiply"></div>
       </div>
@@ -67,7 +67,7 @@ const HeroSection = ({ onSurpriseClick }) => {
 
         {/* Foto Profil */}
         <motion.img
-          src="/src/assets/WhatsApp Image 2025-10-24 at 07.30.19_262f2ef3.jpg"
+          src="/assets/images/Profile.jpg"
           alt="Profile"
           className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full object-cover mx-auto mb-6 sm:mb-8 border-4 border-rose-200 shadow-[0_0_20px_rgba(255,192,203,0.6)]"
           initial={{ opacity: 0, scale: 0.8 }}

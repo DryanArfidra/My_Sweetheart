@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 // 🎵 Playlist lagu kamu
 const playlist = [
-  { src: "/src/assets/Nadhif Basalamah - bergema sampai selamanya (Official Lyric Video) [gvunApwKIiY].mp3", title: "Bergema" },
-  { src: "/src/assets/nadhif basalamah - penjaga hati (Official Lyric Video).mp3", title: "Penjaga Hati" },
-  { src: "/src/assets/Sal Priadi - Kita usahakan rumah itu (Official Lyric Video) [7SqNVv98e8Q].mp3", title: "Rumah Itu" },
-  { src: "/src/assets/Andmesh Kamaleng - Cinta Luar Biasa (Official Music Video) [FcOctsNXyjk].mp3", title: "Cinta Luar Biasa" },
+  { src: "/assets/songs/Bergema.mp3", title: "Bergema" },
+  { src: "/assets/songs/PenjagaHati.mp3", title: "Penjaga Hati" },
+  { src: "/assets/songs/RumahItu.mp3", title: "Rumah Itu" },
+  { src: "/assets/songs/CintaLuarBiasa.mp3", title: "Cinta Luar Biasa" },
 ];
 
 const AudioPlayer = ({ isPlaying, onTogglePlay }) => {
